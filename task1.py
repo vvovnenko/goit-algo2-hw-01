@@ -15,7 +15,6 @@ def find_min_max(arr: list[int]) -> tuple[int, int]:
 
         return min(left_min, right_min), max(left_max, right_max)
 
-    # Виклик рекурсивної функції для всього масиву
     return divide_and_conquer(0, len(arr) - 1)
 
 examples = [
